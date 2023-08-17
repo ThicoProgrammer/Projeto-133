@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Informações do meu Amigo</title>
+    </head>
+    <body>
+        <h1>Relação: Amigo</h1>
+        <h2>Nome: {{ nome }}</h2>
+        <h2>Idade: {{ idade }}</h2>
+
+        <!-- Substitua o caminho da imagem abaixo pelo caminho correto para a imagem na pasta 'static' -->
+        <img src="{{ url_for('static', filename='amigo.jpg') }}" alt="Imagem do Amigo" width="200"/>
+    </body>
+</html>

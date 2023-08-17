@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Informações da minha Mãe</title>
+    </head>
+    <body>
+        <h1>Relação: Pai</h1>
+        <h2>Nome: {{ nome }}</h2>
+        <h2>Idade: {{ idade }}</h2>
+
+        <!-- Substitua o caminho da imagem abaixo pelo caminho correto para a imagem na pasta 'static' -->
+        <img src="{{ url_for('static', filename='mae.jpeg') }}" alt="Imagem da Mãe" width="200"/>
+    </body>
+</html>
